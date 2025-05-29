@@ -1,0 +1,156 @@
+body{
+    background-color: hsl(148, 38%, 91%);
+}
+h3{
+    font-family: 'Karla', sans-serif;
+}
+.full-div{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+   
+}
+.inside-fulldiv{
+     border-radius: 20px;
+  
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+.name-section{
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 10px;
+   
+}
+.name-section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    column-gap: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
+.name-input1{
+height: 30px;
+border-radius: 8px;
+border-width: 1px;
+
+}
+.name-section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
+.name-input2{
+
+height: 30px;
+border-radius: 8px;
+border-width: 1px;
+}
+.email-section{
+    width: 355px;
+    height: 30px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 8px;
+    border-width: 1px;
+
+}
+.email-address{
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
+.button-section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.Querry-type{
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
+.chosebutton1{
+     width:170px;
+    font-family: 'Karla', sans-serif;
+    align-items: center;
+    height: 35px;
+    font-size: 12px;
+    background-color:hsl(0, 0%, 100%) ;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.chosebutton1:hover{
+    background-color: hsl(186, 15%, 59%);
+    color: white;
+    
+}
+.chosebutton2{
+    font-size: 12px;
+    align-items: center;
+  width:170px;
+  height: 35px;
+  margin-right: 0px;
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  border-width: 1px;
+   border-radius: 10px;
+}
+.chosebutton2:hover{
+    background-color: hsl(186, 15%, 59%);
+    color: white;
+    
+}
+.massage{
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+}
+.discription-section{
+    height: 80px;
+    width: 355px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 8px;
+    border-width: 1px;
+}
+.cheackbox-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.footer-buton-section{
+    display: flex;
+    justify-content: center;
+}
+.cheackbox-pera{
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+}
+.footer-submit{
+    width: 365px;
+    height: 35px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(168, 100%, 25%);
+   margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.7;
+}
+.footer-submit:hover{
+    background-color: hsl(187, 24%, 22%);
+    color: hsl(0, 0%, 100%) ;
+    opacity: 0.8;
+}
+.footer-submit:active{
+    opacity: 0.4;
+}
